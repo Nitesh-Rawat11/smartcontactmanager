@@ -1,0 +1,364 @@
+body {
+	background: #e2e2e2 !important;
+}
+
+.bg-primary {
+	background: #009688 !important;
+}
+
+.navbar {
+	font-family: 'Sniglet', cursive;
+	background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)),
+		url(../img/banner.jpg);
+}
+
+.banner {
+	width: 100%;
+	height: 93vh;
+	background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)),
+		url(../img/banner.jpg);
+	background-size: cover;
+	color: white;
+}
+
+.my-card {
+	padding: 20px;
+	background: #FFFFFF;
+}
+
+/* login page css */
+.login-page {
+	width: 100%; margin-top : 100px;
+	margin-left: 700px;
+	max-width: 650px;
+	height: 450px;
+	border: 1px solid #9C9C9C;
+	background-color: white;
+	padding: 20px;
+	background: url(../img/lock.jpg);
+	margin-top: 100px;
+}
+
+.login-page .container .form .formfield {
+	padding: 10px;
+	height: 80px;
+}
+
+.login-page .container .form .formbutton {
+	height: 10px;
+	margin-left: 70px;
+}
+
+.login-page .container .form .register {
+	margin-left: 300px;
+	position: absolute;
+	top: 470px;
+}
+
+.login-page .container .form .forget {
+	height: 10px;
+	margin-left: 300px;
+	margin-top: 10px;
+}
+
+/* register here css */
+.sign-up {
+	background: url(../img/about.jpg);
+	background-size: cover;
+	padding: 40px 250px;
+}
+
+/* sidebar style */
+@media only screen and (max-width: 600px) {
+	.sidebar {
+		display: none;
+		width: 80% !important;
+		background: white;
+		height: 100vh;
+		position: fixed;
+		padding-top: 20px;
+	}
+	.content {
+		margin-left: 0% !important;
+	}
+}
+
+.sidebar {
+	width: 18%;
+	background: white;
+	height: 100%;
+	position: fixed;
+	padding-top: 45px;
+	z-index: 999999999999999999999999999;
+}
+
+.sidebar a {
+	display: block;
+	width: 100%;
+	padding: 10px 25px;
+	text-decoration: none;
+	color: gray;
+}
+
+.sidebar a:hover {
+	background: #e2e2e2;
+}
+
+.sidebar .divider {
+	height: .5px;
+	width: 100%;
+	background: #e2e2e2;
+	margin-top: 10px;
+}
+
+.content {
+	margin-left: 20%;
+}
+
+.sidebar .crossBtn {
+	position: absolute;
+	top: 0;
+	right: 35px;
+	font-size: 36px;
+	cursor: pointer;
+}
+
+.my_profile_picture {
+	width: 35px;
+	height: 35px;
+	object-fit: cover;
+	border-radius: 50%;
+}
+
+/*  search css */
+.search-container {
+	position: relative;
+}
+
+.search-result {
+	position: absolute;
+	background: white;
+	width: 100%;
+	padding: 10px;
+	border: 1px solid gray;
+	display: none;
+}
+
+.active {
+	background: #009688 !important;
+	color: white !important;
+}
+
+/*  contact us css */
+.contact {
+	position: relative;
+	min-height: 100%;
+	padding: 45px 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-size: cover;
+	background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)),
+		url(../img/contactus.jpg);
+}
+
+.contact .content {
+	max-width: 800px;
+	text-align: center;
+}
+
+.contact .content h2 {
+	font-size: 36px;
+	font-weight: 500;
+	color: #fff;
+}
+
+.contact .content p {
+	font-weight: 300;
+	color: #fff;
+}
+
+.container {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 30px;
+}
+
+.container .contactInfo {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+}
+
+.container .contactInfo .box {
+	position: relative;
+	padding: 20px 0;
+	display: flex;
+}
+
+.container .contactInfo .box .icon {
+	max-width: 60px;
+	height: 60px;
+	background: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50px;
+	font-size: 20px;
+}
+
+.container .contactInfo .box .text {
+	display: flex;
+	margin-left: 20px;
+	font-size: 16px;
+	color: #fff;
+	flex-direction: column;
+	font-weight: 300;
+}
+
+.container .contactInfo .box .text h3 {
+	font-weight: 500;
+	color: #00bcd4;
+}
+
+.contactForm {
+	width: 40%;
+	padding: 40px;
+	background: #fff;
+}
+
+.contactForm h2 {
+	font-size: 30px;
+	color: #333;
+	font-weight: 500;
+}
+
+.contactForm .inputBox {
+	position: relative;
+	width: 100%;
+	margin-top: 10px;
+}
+
+.contactForm .inputBox input, .contactForm .inputBox textarea {
+	width: 100%;
+	padding: 5px 0;
+	font-size: 16px;
+	margin: 10px 0;
+	border: none;
+	border-bottom: 2px solid #333;
+	outline: none;
+	resize: none;
+}
+
+.contactForm .inputBox span {
+	position: absolute;
+	left: 0;
+	padding: 5px 0;
+	font-size: 16px;
+	margin: 10px 0;
+	pointer-events: none;
+	transition: 0.5s;
+	color: #666;
+}
+
+.contactForm .inputBox input:focus ~ span, .contactForm .inputBox input:valid 
+	 ~ span, .contactForm .inputBox textarea:focus ~ span, .contactForm .inputBox textarea:valid 
+	 ~ span {
+	color: #e91e63;
+	font-size: 12px;
+	transform: translateY(-20px);
+}
+
+.contactForm .inputBox input[type="submit"] {
+	width: 100px;
+	background: #00bcd4;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	padding: 10px;
+	font-size: 18px;
+}
+
+@media ( max-width : 991px) {
+	.contact {
+		padding: 50px;
+	}
+	.container {
+		flex-direction: column;
+	}
+	.container .contactInfo {
+		margin-bottom: 40px;
+	}
+	.container .contactInfo, .contacForm {
+		width: 100%;
+	}
+}
+
+/*  about us css */
+* {
+	padding: 0;
+	margin: 0;
+	font-family: 'Sniglet', cursive;
+	box-sizing: border-box;
+}
+
+.about {
+	max-width: 1600px;
+	background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)),
+		url(../img/about.jpg);
+	background-size: cover;
+	position: relative;
+	padding: 155px 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.about-text h1 {
+	color: #fff;
+	font-size: 50px;
+	text-transform: capitalize;
+	margin-bottom: 50px;
+}
+
+.about-text h5 {
+	color: #fff;
+	font-size: 25px;
+	text-transform: capitalize;
+	margin-bottom: 25px;
+	letter-spacing: 2px;
+}
+
+span {
+	color: #fff;
+}
+
+.about-text p {
+	color: #fcfc;
+	font-size: 16px;
+	line-height: 30px;
+	margin-bottom: 30px;
+	letter-spacing: 1px;
+}
+
+button {
+	margin-left: 600px;
+	background: #f9004d;
+	color: #fff;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 13px 3opx;
+	border-radius: 30px;
+	transition: .4s;
+}
+
+button:hover {
+	background: transparent;
+	border: 2px solid #f9004d;
+	cursor: pointer;
+}

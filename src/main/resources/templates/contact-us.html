@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+	th:replace="base::layout(~{::section})">
+<head>
+<meta charset="UTF-8" />
+<title>this is contact us page</title>
+</head>
+<body>
+	<section class="contact">
+		<div class="content">
+			<h2>Contact Us</h2>
+			<p>Contact manager is a software program that enables users to
+				easily store and find contact information They are contact databases that provide a
+				fully integrated approach to tracking all information.</p>
+		</div>
+
+		<div class="container">
+			<div class="contactInfo">
+				<div class="box">
+					<div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+					<div class="text">
+						<h3>Address</h3>
+						<p>
+							Flat No. 302, <br>Near Of Yash General Store,<br>
+							Ananta Nager, <br>411057
+						</p>
+					</div>
+				</div>
+
+				<div class="box">
+					<div class="icon"><i class="fa fa-phone-square" aria-hidden="true"></i></div>
+					<div class="text">
+						<h3>Phone</h3>
+						<p>7566641170</p>
+					</div>
+				</div>
+
+				<div class="box">
+					<div class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
+					<div class="text">
+						<h3>Email</h3>
+						<p>rawatnitesh@gmail.com</p>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="contactForm">
+				<form>
+					<h2>Send Message</h2>
+					<div class="inputBox">
+					   
+						<input type="text" name="" required="required">	
+						 <span>Full Name</span>					
+					</div>
+					
+					<div class="inputBox">
+					    
+						<input type="text" name="" required="required">	
+						<span>Email</span>					
+					</div>
+					
+					<div class="inputBox">
+					    
+					    <textarea rows="" cols="" required="required"></textarea>
+					    <span>Type Your Message...</span>
+					</div>
+					
+					<div class="inputBox">
+						<input type="submit" value="Send">						
+					</div>
+
+				</form>
+			</div>
+		</div>
+	</section>
+
+</body>
+</html>
